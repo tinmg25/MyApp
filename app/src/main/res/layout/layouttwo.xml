@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#0F1010">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="50sp"
+        android:id="@+id/btnOne"
+        android:background="#1FA608"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="to"
+        android:textSize="50sp"
+        android:id="@+id/btnTwo"
+        android:background="#00ffff"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnOne"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mic"
+        android:textSize="50sp"
+        android:id="@+id/btnThree"
+        android:background="#ff0000"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnTwo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leading a way to a brighter future"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnThree"
+        android:textColor="#fdfd00"
+        android:id="@+id/txt1"
+        android:textSize="25sp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/download"
+        android:layout_below="@id/txt1"
+        android:contentDescription="@string/app_use1"/>
+
+</RelativeLayout>
